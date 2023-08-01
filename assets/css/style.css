@@ -1,13 +1,29 @@
 body {
-    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
     
 }
 
-.tittle {
-    background-color: aquamarine;
-    text-align: center;
-    font-family: 'Great Vibes', cursive;
+h1::after,h1::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: black;
+    top: 0.6em;
+}
 
+h1::before {
+    left: -140px;
+}
+
+h1::after {
+    left: 200px;
 }
 
 main {

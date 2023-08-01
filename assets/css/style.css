@@ -1,0 +1,43 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.tittle {
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.receta1 {
+    background-color: skyblue;
+    width: 100%;
+
+}
+
+img {
+    width: 300px;
+    flex-direction: row-reverse;
+}
+
+.receta2 {
+    background-color: aqua;
+    width: 100%;
+}
+
+.receta3 {
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.receta4 {
+    background-color: bisque;
+    width: 100%;
+}

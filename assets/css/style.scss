@@ -23,7 +23,7 @@ h1::before {
 }
 
 h1::after {
-    left: 190px;
+    left: 210px;
 }
 
 main {
@@ -38,3 +38,7 @@ img {
     width: 300px;
     flex-direction: row-reverse;
 } 
+
+.carrusel {
+    width: 1000px;
+}

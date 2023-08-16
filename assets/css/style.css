@@ -41,6 +41,9 @@ img {
   width: 1000px;
 }
 
-.postre__1 {
+.postre__1 .postre__1__h2 {
+  font-family: "Roboto Slab", serif;
+}
+.postre__1 .postre__1__proceso {
   font-family: "Roboto Slab", serif;
 }/*# sourceMappingURL=style.css.map */

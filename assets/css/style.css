@@ -1,62 +1,49 @@
 body {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    display: inline-block;
-    position: relative;
-    font-family: 'Roboto Slab', serif;
-    
+  display: inline-block;
+  position: relative;
+  font-family: "Roboto Slab", serif;
 }
 
-h1::after,h1::before {
-    content: "";
-    position: absolute;
-    width: 120px;
-    height: 3px;
-    background-color: black;
-    top: 0.6em;
+h1::after, h1::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;
 }
 
 h1::before {
-    left: -140px;
+  left: -140px;
 }
 
 h1::after {
-    left: 190px;
+  left: 210px;
 }
 
 main {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    padding: 15px;
-    
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 15px;
 }
 
 img {
-    width: 300px;
-    flex-direction: row-reverse;
+  width: 300px;
+  flex-direction: row-reverse;
 }
 
-/*
-.receta1 {
-    background-color: skyblue;
-    width: 100%;
-
-}
-.receta2 {
-    background-color: aqua;
-    width: 100%;
+.carrusel {
+  width: 1000px;
 }
 
-.receta3 {
-    background-color: blueviolet;
-    width: 100%;
+.postre__1 .postre__1__h2 {
+  font-family: "Roboto Slab", serif;
 }
-
-.receta4 {
-    background-color: bisque;
-    width: 100%;
-}
-*/
+.postre__1 .postre__1__proceso {
+  font-family: "Roboto Slab", serif;
+}/*# sourceMappingURL=style.css.map */

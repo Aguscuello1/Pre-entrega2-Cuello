@@ -37,13 +37,26 @@ img {
   flex-direction: row-reverse;
 }
 
+.haeder__navbar {
+  font-family: "Roboto Slab", serif;
+}
+
 .carrusel {
   width: 1000px;
 }
 
-.postre__1 .postre__1__h2 {
-  font-family: "Roboto Slab", serif;
+.postre__1 {
+  font-size: 14px;
 }
-.postre__1 .postre__1__proceso {
-  font-family: "Roboto Slab", serif;
+.postre__1 .lista__1 {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.postre__1 .postre__h2 {
+  font-family: "Open Sans", sans-serif;
+}
+.postre__1 .postre__h2__h3 {
+  font-family: "Open Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */

@@ -41,6 +41,16 @@ img {
   width: 1000px;
 }
 
+.postre__1 {
+  font-size: 14px;
+}
+.postre__1 .lista__1 {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  list-style-image: url(/assets/img/mini-logo-1.jpg..png);
+}
 .postre__1 .postre__h2 {
   font-family: "Open Sans", sans-serif;
 }

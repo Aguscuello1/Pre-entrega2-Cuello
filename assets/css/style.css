@@ -48,6 +48,9 @@ img {
 .postre__1 .postre__1__h2 {
   font-family: "Roboto Slab", serif;
 }
+.postre__1 .postre__h2 {
+  font-family: "Open Sans", sans-serif;
+}
 .postre__1 .lista__1 {
   list-style-position: inside;
   margin: 0;

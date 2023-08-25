@@ -63,4 +63,9 @@ img {
 
 .presentacion {
   font-family: "Open Sans", sans-serif;
+}
+
+.img {
+  width: 500px;
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */

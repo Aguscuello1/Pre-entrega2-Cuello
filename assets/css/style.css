@@ -22,7 +22,7 @@ h1::before {
 }
 
 h1::after {
-  left: 210px;
+  left: 185px;
 }
 
 main {
@@ -58,5 +58,9 @@ img {
   text-align: left;
 }
 .postre__1 .postre__h2__h3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.presentacion {
   font-family: "Open Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */

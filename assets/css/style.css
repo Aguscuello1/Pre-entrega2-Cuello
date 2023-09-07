@@ -57,10 +57,16 @@ img {
   padding: 0;
   text-align: left;
 }
-.postre__1 .postre__h2__h3 {
+.postre__1 .postre__h3 {
   font-family: "Open Sans", sans-serif;
 }
 
 .presentacion {
   font-family: "Open Sans", sans-serif;
+}
+
+.img {
+  width: 1000px;
+  padding: 0;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

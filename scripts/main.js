@@ -59,11 +59,27 @@ if (numero) {
     alert ("Tu numero NO es positivo")
 } */
 
-let estudiantesPresentes = parseInt(prompt("Ingresar estudiantes presentes: "))
+const NOMBRE_USUARIO = prompt("Ingresar tu nombre:")
+const APELLIDO_USUARIO = prompt("Ingresar tu apellido:")
 
-if (estudiantesPresentes > 10) {
-    console.log("Se puede dar clases con los alumnos presentes.");
+function NombreCompletoEstudiantes(nombre, apellido,) {
+    const USUARIO = apellido + ", " + nombre 
+    return USUARIO     
+}
 
+function saludar(aQuienSaludar) {
+    alert("Bienvenido " + aQuienSaludar + " a la clase de hoy.")
+    
+}
+
+const FULL_NAME = NombreCompletoEstudiantes (APELLIDO_USUARIO, NOMBRE_USUARIO)
+
+saludar(FULL_NAME)
+
+let estudiantesPresentes = parseInt(prompt("Ingresar estudiantes presentes: "));
+
+if (estudiantesPresentes >= 10) {
+  console.log("Se puede dar clases con los alumnos presentes.");
 } else {
-    console.log("No se puede dar clases con los alumnos presentes.");
+  console.log("No se puede dar clases con los alumnos presentes.");
 }
